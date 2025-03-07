@@ -36,6 +36,7 @@ O projeto tem como objetivo:
 │       ├── database.js
 │   ├── scripts/         # Processamento de dados com Python
 │       ├── scripts.py
+│       ├── analisando_dados.py
 ├── .gitignore           # Arquivos ignorados pelo Git
 ├── README.md            # Documentação do projeto
 ├── package.json         # Dependências do Node.js
