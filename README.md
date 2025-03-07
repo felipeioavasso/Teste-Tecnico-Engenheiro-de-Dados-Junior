@@ -24,7 +24,9 @@ O projeto tem como objetivo:
 ## 📄 Estrutura do Projeto
 ```plaintext
 /
-├── data/                # Arquivos CSV usados no processamento
+├── data/                # Arquivos CSV
+│   ├── raw_data/        # Arquivos CSV usados no processamento
+│   ├── cleaned_data/    # Arquivos CSV limpos
 ├── src/                 # Código-fonte da API e scripts
 │   ├── models/          # Modelos do banco de dados
 │       ├── models.js
