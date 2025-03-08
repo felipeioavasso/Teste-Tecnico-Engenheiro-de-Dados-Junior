@@ -48,7 +48,7 @@ O projeto tem como objetivo:
 ├── package.json             # Dependências do Node.js
 ├── package-lock.json        # Controle de versões dos pacotes
 └── server.js                # Arquivo principal da API
-
+```
 ---
 
 ## 🚀 Como Executar o Projeto
@@ -57,10 +57,10 @@ O projeto tem como objetivo:
 ```bash
 git clone https://github.com/felipeioavasso/Teste-Tecnico-Engenheiro-de-Dados-Junior.git
 cd Teste-Tecnico-Engenheiro-de-Dados-Junior
-
+```
 ---
 
-![alt text](image.png)
+imagem(colocar)
 
 
 A primeira etapa do trabalho foi a coleta dos dados. Para isso, utilizamos uma interface gráfica desenvolvida em Python com Tkinter, que permite carregar arquivos CSV de forma interativa. A função `carregar_e_exibir_csv` foi criada para carregar o arquivo.
