@@ -70,7 +70,17 @@ cd Teste-Tecnico-Engenheiro-de-Dados-Junior
 
 Para carregar os dados, foi criada uma interface gráfica com Tkinter, permitindo a importação de arquivos CSV de forma interativa. O script responsável por essa funcionalidade é o CSV_loader_GUI.py.
 
+
+https://github.com/user-attachments/assets/73c0261c-8679-4022-b6c0-e9e64f4864e0
+
+
 🔹 Visualização dos Dados com Streamlit
+
+
+
+https://github.com/user-attachments/assets/29aadaab-cdc8-4624-829e-1606a30ae3e3
+
+
 
 Para analisar rapidamente os dados, foi desenvolvido um aplicativo em Streamlit.
 Como Rodar o Streamlit:
