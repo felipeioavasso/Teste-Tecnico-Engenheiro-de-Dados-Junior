@@ -64,7 +64,8 @@ cd Teste-Tecnico-Engenheiro-de-Dados-Junior
 
 
 
-📊 Coleta e Visualização dos Dados
+### 📊 Coleta e Visualização dos Dados  
+
 🔹 Coleta de Dados
 
 Para carregar os dados, foi criada uma interface gráfica com Tkinter, permitindo a importação de arquivos CSV de forma interativa. O script responsável por essa funcionalidade é o CSV_loader_GUI.py.
@@ -85,7 +86,7 @@ Como Rodar o Streamlit:
  3. Acesse a aplicação em seu navegador:
     Se não abrir automaticamente, vá até http://localhost:8501.
 
-🔄 Transformação e Armazenamento de Dados
+### 🔄 Transformação e Armazenamento de Dados
 🔹 Transformações Realizadas
 
 Todas as transformações aplicadas aos dados estão documentadas no Jupyter Notebook analisando_dados.ipynb. Algumas das etapas incluem:
@@ -93,7 +94,7 @@ Todas as transformações aplicadas aos dados estão documentadas no Jupyter Not
 ✅ Criação de novas colunas derivadas
 🔹 Salvando os Dados no PostgreSQL e MongoDB
 
-📥 Carregamento dos Dados nos Bancos de Dados
+### 📥 Carregamento dos Dados nos Bancos de Dados
 
 Após a transformação, os dados são carregados nos bancos de dados:
 
@@ -117,13 +118,13 @@ Os dados foram carregados conforme requisitado:
 ![image](https://github.com/user-attachments/assets/72815cfe-b7db-4046-8a62-79ca9e925fdc)
 
 
-🔎 Consultas no Banco de Dados
+### 🔎 Consultas no Banco de Dados
 
 As queries para consulta estão disponíveis no diretório scripts:
 ![image](https://github.com/user-attachments/assets/05df8f42-8b61-43dd-93a7-3e6e20d528cb)
 
 
-🔗 Integração de Dados com Node.js
+### 🔗 Integração de Dados com Node.js
 
 Para a implementação da integração de dados via API REST com Node.js, os seguintes arquivos são essenciais:
 ![image](https://github.com/user-attachments/assets/a671dfd4-cff3-43dd-be15-cedbb4a510ff)
