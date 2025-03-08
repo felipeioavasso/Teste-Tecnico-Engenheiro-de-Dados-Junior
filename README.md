@@ -74,17 +74,14 @@ Para carregar os dados, foi criada uma interface gráfica com Tkinter, permitind
 
 Para analisar rapidamente os dados, foi desenvolvido um aplicativo em Streamlit.
 Como Rodar o Streamlit:
- 1. Navegue até o diretório do arquivo:
+ 
 ```
     cd src/scripts
-```
-
- 2. Execute o seguinte comando:
-```
     streamlit run streamlit_analyzer_data.py
 ```
- 3. Acesse a aplicação em seu navegador:
-    Se não abrir automaticamente, vá até http://localhost:8501.
+Acesse a aplicação em seu navegador: http://localhost:8501.
+
+ ---
 
 ### 🔄 Transformação e Armazenamento de Dados
 🔹 Transformações Realizadas  
