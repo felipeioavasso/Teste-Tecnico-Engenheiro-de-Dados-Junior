@@ -118,12 +118,12 @@ Os dados foram carregados conforme requisitado:
 ![image](https://github.com/user-attachments/assets/72815cfe-b7db-4046-8a62-79ca9e925fdc)
 
 
-### 🔎 Consultas no Banco de Dados
+### 🔎 Consultas no Banco de Dados  
 
-As queries para consulta estão disponíveis no diretório scripts:
+As queries para consulta estão disponíveis no diretório scripts:  
 ![image](https://github.com/user-attachments/assets/05df8f42-8b61-43dd-93a7-3e6e20d528cb)
 
-
+  
 ### 🔗 Integração de Dados com Node.js
 
 Para a implementação da integração de dados via API REST com Node.js, os seguintes arquivos são essenciais:
