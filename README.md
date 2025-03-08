@@ -87,8 +87,9 @@ Como Rodar o Streamlit:
     Se não abrir automaticamente, vá até http://localhost:8501.
 
 ### 🔄 Transformação e Armazenamento de Dados
-🔹 Transformações Realizadas
-Todas as transformações aplicadas aos dados estão documentadas no Jupyter Notebook `analisando_dados.ipynb`. Algumas das etapas incluem:
+🔹 Transformações Realizadas  
+
+Todas as transformações aplicadas aos dados estão documentadas no Jupyter Notebook `analisando_dados.ipynb`. Algumas das etapas incluem:  
 ✅ Normalização de dados  
 ✅ Criação de novas colunas derivadas  
 
