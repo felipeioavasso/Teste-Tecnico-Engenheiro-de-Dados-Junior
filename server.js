@@ -8,7 +8,7 @@ const routes = require('./src/routes/routes'); // Importando as rotas
 const app = express();
 
 // Usa as rotas da API
-app.use('/api', routes);
+app.use('/', routes);
 
 // Inicia o servidor na porta 3000
 app.listen(3000, () => {
