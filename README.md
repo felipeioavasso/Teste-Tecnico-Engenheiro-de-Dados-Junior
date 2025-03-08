@@ -60,41 +60,81 @@ cd Teste-Tecnico-Engenheiro-de-Dados-Junior
 ```
 ---
 
-imagem(colocar)
-
-
-A primeira etapa do trabalho foi a coleta dos dados. Para isso, utilizamos uma interface gráfica desenvolvida em Python com Tkinter, que permite carregar arquivos CSV de forma interativa. A função `carregar_e_exibir_csv` foi criada para carregar o arquivo.
-Para ler o arquivo foi utilizado o arquivo CSV_Loader_GUI.
-
-O streamlit_data_analyzer é uma maneirar rápida e fácil de visualizar o dataset e suas principais informações.
-
-## Como Ativar a Visualização dos Datasets no Streamlit
-1. **Acesse o Diretório do Arquivo**
-   
-   Abra o terminal e navegue até a pasta onde o arquivo `streamlit_analysier_data.py` está localizado. Para isso, use o comando `cd` (mudar diretório) para acessar o caminho correto da pasta. Exemplo:
-
-   ```bash 
-   cd /caminho/para/a/pasta/do/arquivo/streamlit_analysier_data.py
-
-2. Execute o Comando do Streamlit
-
-   Uma vez no diretório correto, execute o seguinte comando para rodar o aplicativo Streamlit:
-   streamlit run streamlit_analysier_data.py
-
-3. Acessando a Aplicação
-
-   Após rodar o comando, o Streamlit abrirá automaticamente a aplicação em seu navegador padrão. Caso não abra automaticamente, você poderá acessar manualmente o endereço abaixo em qualquer navegador:
-   http://localhost:8501
+![image](https://github.com/user-attachments/assets/ba52b465-bab0-43f1-b172-4e8e7d6f87e9)
 
 
 
+📊 Coleta e Visualização dos Dados
+🔹 Coleta de Dados
+
+Para carregar os dados, foi criada uma interface gráfica com Tkinter, permitindo a importação de arquivos CSV de forma interativa. O script responsável por essa funcionalidade é o CSV_loader_GUI.py.
+
+🔹 Visualização dos Dados com Streamlit
+
+Para analisar rapidamente os dados, foi desenvolvido um aplicativo em Streamlit.
+Como Rodar o Streamlit:
+ 1. Navegue até o diretório do arquivo:
+```
+    cd src/scripts
+```
+
+ 2. Execute o seguinte comando:
+```
+    streamlit run streamlit_analyzer_data.py
+```
+ 3. Acesse a aplicação em seu navegador:
+    Se não abrir automaticamente, vá até http://localhost:8501.
+
+🔄 Transformação e Armazenamento de Dados
+🔹 Transformações Realizadas
+
+Todas as transformações aplicadas aos dados estão documentadas no Jupyter Notebook analisando_dados.ipynb. Algumas das etapas incluem:
+✅ Normalização de dados
+✅ Criação de novas colunas derivadas
+🔹 Salvando os Dados no PostgreSQL e MongoDB
+
+📥 Carregamento dos Dados nos Bancos de Dados
+
+Após a transformação, os dados são carregados nos bancos de dados:
+
+✅ PostgreSQL:
+Execute o seguinte comando para carregar os dados no PostgreSQL:
+```
+python src/scripts/load_data_postgre_clientes_pedidos.py
+```
+✅ MongoDB:
+Execute o seguinte comando para carregar os dados no MongoDB:
+```
+python src/scripts/load_data_mongo.py
+```
+
+Os dados foram carregados conforme requisitado:
+
+    PostgreSQL (Tópico 2, Parte 1):
+![image](https://github.com/user-attachments/assets/118a9347-a6f9-4d98-8006-7b461f154e2a)
+
+    MongoDB (Tópico 2, Parte 2):
+![image](https://github.com/user-attachments/assets/72815cfe-b7db-4046-8a62-79ca9e925fdc)
 
 
+🔎 Consultas no Banco de Dados
+
+As queries para consulta estão disponíveis no diretório scripts:
+![image](https://github.com/user-attachments/assets/05df8f42-8b61-43dd-93a7-3e6e20d528cb)
 
 
+🔗 Integração de Dados com Node.js
 
+Para a implementação da integração de dados via API REST com Node.js, os seguintes arquivos são essenciais:
+![image](https://github.com/user-attachments/assets/a671dfd4-cff3-43dd-be15-cedbb4a510ff)
 
-
+- **`server.js`** – Arquivo principal da aplicação, responsável por iniciar o servidor Node.js e configurar as rotas da API.  
+- **`routes/routes.js`** – Define as rotas da API para comunicação com os bancos de dados.  
+- **`config/mongoose.js e sequelize.js`** – Configuração das conexões com MongoDB e PostgreSQL.  
+- **`models/Cliente.js`** – Modelo de dados do cliente, utilizado para operações no banco.  
+- **`models/Pedido.js`** – Modelo de dados do pedido, representando as transações no sistema.  
+- **`package.json`** – Contém as dependências do projeto e scripts para execução do servidor.  
+- **`package-lock.json`** – Controle de versões dos pacotes instalados no projeto.  
 
 
 
