@@ -88,12 +88,11 @@ Como Rodar o Streamlit:
 
 ### 🔄 Transformação e Armazenamento de Dados
 🔹 Transformações Realizadas
-
-Todas as transformações aplicadas aos dados estão documentadas no Jupyter Notebook analisando_dados.ipynb. Algumas das etapas incluem:
+Todas as transformações aplicadas aos dados estão documentadas no Jupyter Notebook `analisando_dados.ipynb`. Algumas das etapas incluem:
 ✅ Normalização de dados  
 ✅ Criação de novas colunas derivadas  
-🔹 Salvando os Dados no PostgreSQL e MongoDB
 
+🔹 Salvando os Dados no PostgreSQL e MongoDB
 ### 📥 Carregamento dos Dados nos Bancos de Dados
 
 Após a transformação, os dados são carregados nos bancos de dados:
