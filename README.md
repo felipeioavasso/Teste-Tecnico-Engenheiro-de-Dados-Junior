@@ -62,7 +62,7 @@ cd Teste-Tecnico-Engenheiro-de-Dados-Junior
 
 ![image](https://github.com/user-attachments/assets/ba52b465-bab0-43f1-b172-4e8e7d6f87e9)
 
-
+---
 
 ### 📊 Coleta e Visualização dos Dados  
 
@@ -114,12 +114,14 @@ Os dados foram carregados conforme requisitado:
     MongoDB (Tópico 2, Parte 2):
 ![image](https://github.com/user-attachments/assets/72815cfe-b7db-4046-8a62-79ca9e925fdc)
 
+---
 
 ### 🔎 Consultas no Banco de Dados  
 
 As queries para consulta estão disponíveis no diretório scripts:  
 ![image](https://github.com/user-attachments/assets/05df8f42-8b61-43dd-93a7-3e6e20d528cb)
 
+---
   
 ### 🔗 Integração de Dados com Node.js
 
@@ -134,7 +136,7 @@ Para a implementação da integração de dados via API REST com Node.js, os seg
 - **`package.json`** – Contém as dependências do projeto e scripts para execução do servidor.  
 - **`package-lock.json`** – Controle de versões dos pacotes instalados no projeto.  
 
-
+---
 
 
 ## 📌 Contato
