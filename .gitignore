@@ -169,3 +169,10 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+# Ignorar dependências do Node.js  
+node_modules/  
+
+# Ignorar arquivos de ambiente (credenciais, variáveis de configuração)  
+.env  

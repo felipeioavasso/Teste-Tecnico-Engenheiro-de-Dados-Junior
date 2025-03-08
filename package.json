@@ -1,0 +1,20 @@
+{
+  "name": "teste-tecnico-engenheiro-de-dados-junior",
+  "version": "1.0.0",
+  "description": "Este repositório contém a solução para o teste técnico de Engenheiro de Dados Júnior, incluindo manipulação de dados, modelagem e querying em banco de dados, além da integração via API REST com Node.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.1",
+    "pg": "^8.13.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.6"
+  }
+}
