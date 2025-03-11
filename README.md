@@ -37,11 +37,13 @@ O projeto tem como objetivo:
 │   ├── routes/              # Rotas da API
 │   │   ├── routes.js
 │   ├── scripts/             # Scripts de manipulação de dados
+│   │   ├── CSV_Loader_GUI.py 
 │   │   ├── analisando_dados.ipynb
 │   │   ├── load_data_mongo.py
 │   │   ├── load_data_postgre_clientes_pedidos.py
 │   │   ├── query_mongo.js
 │   │   ├── query_postgres.sql
+│   │   ├── streamlit_data_analyzer.py
 ├── .gitignore               # Arquivos ignorados pelo Git
 ├── .env                     # Configuração de ambiente (não incluído no repositório)
 ├── README.md                # Documentação do projeto
