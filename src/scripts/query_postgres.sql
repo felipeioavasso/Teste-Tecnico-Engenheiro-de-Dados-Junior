@@ -8,8 +8,8 @@ LIMIT 5;
 
 /* • Escreva uma query SQL para obter o valor médio dos pedidos por mês. */
 SELECT
-    DATE_TRUNC('month', data_pedido) AS mes,
+    DATE_TRUNC('month', data_pedido) AS mes_ano,
     ROUND(AVG(total), 2) AS valor_medio_pedidos
 FROM pedidos
-GROUP BY mes
+GROUP BY mes_ano
 ORDER BY mes;

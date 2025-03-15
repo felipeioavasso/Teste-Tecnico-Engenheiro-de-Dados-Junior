@@ -4,7 +4,7 @@ db.pedidos.find({
       $gte: "2024-02-01", 
       $lt: "2024-03-01"
     }
-})
+}).pretty()
 
 /* Escreva uma consulta MongoDB para calcular o total gasto por cliente. */
 db.pedidos.aggregate([
@@ -12,10 +12,10 @@ db.pedidos.aggregate([
     $unwind: "$itens"
 },
 {
-    $group: {
-    _id: "$cliente.id",
-    nome: { $first: "$cliente.nome" },
-    total_gasto: { $sum: { $multiply: ["$itens.quantidade", "$itens.preco"] } }
+    $project: {
+    _id: 0,
+    Cliente: "$nome",
+    "Total Gasto (R$)": { $round: ["$total_gasto", 2] }
     }
 },
 {
